@@ -1,5 +1,14 @@
+import ProductList from "../components/ProductList";
+
 function Home() {
-  return <h2>Home Page</h2>;
+  return(
+ 
+        <div>
+            <h1>Product List</h1>
+            <ProductList/>
+        </div>
+   
+  );
 }
 
 export default Home;

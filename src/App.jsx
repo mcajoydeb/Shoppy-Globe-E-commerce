@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
-
+import Header from "./components/Header";
 function App() {
   return (
     <div>
       <h1>ShoppyGlobe</h1>
+      <Header/>
       <Outlet />
     </div>
   );

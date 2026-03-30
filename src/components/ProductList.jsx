@@ -10,7 +10,7 @@ function ProductList() {
     <div>
       <h2>Products</h2>
       {products.map((product) => (
-        <div key={product.id}>
+        <div key={product.id} style={{ border: "1px solid #ccc", margin: "10px", padding: "10px" }}>
           <h4>{product.title}</h4>
         </div>
       ))}

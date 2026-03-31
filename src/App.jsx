@@ -6,10 +6,14 @@ function App() {
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col">
       <Header />
-      <div className="flex-grow">
-        <Outlet />
+      <div className="max-w-[1280px] mx-auto px-4 flex">
+        
+        <div className="flex-grow">
+          <Outlet />
+        </div>
+       
       </div>
-      <Footer />
+       <Footer />
     </div>
   );
 }

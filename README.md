@@ -6,7 +6,7 @@ A modern e-commerce web application built using React, Redux Toolkit, and Tailwi
 
 ## Live Repository
 
-👉 https://github.com/mcajoydeb/Shoppy-Globe-E-commerce
+https://github.com/mcajoydeb/Shoppy-Globe-E-commerce
 
 ---
 
@@ -156,6 +156,6 @@ npm run dev
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and available for learning purposes.

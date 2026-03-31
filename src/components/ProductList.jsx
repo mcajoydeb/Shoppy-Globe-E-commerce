@@ -1,16 +1,19 @@
 import useProducts from "../hooks/useProducts";
 import ProductItem from "./ProductItem";
+import { useSelector } from "react-redux";
 
-function ProductList() {
-  const { products, loading, error } = useProducts();
+function ProductList({ products }) {
+  const searchTerm = useSelector((state) => state.cart.searchTerm);
 
-  if (loading) return <h3>Loading...</h3>;
-  if (error) return <h3>{error}</h3>;
+  const filteredProducts = (products || []).filter((product) =>
+  product.title
+    ?.toLowerCase()
+    .includes((searchTerm || "").toLowerCase())
+);
 
   return (
-    <div>
-      <h2>Products</h2>
-      {products.map((product) => (
+    <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      {filteredProducts.map((product) => (
         <ProductItem key={product.id} product={product} />
       ))}
     </div>

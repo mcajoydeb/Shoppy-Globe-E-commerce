@@ -1,19 +1,16 @@
+import useProducts from "../hooks/useProducts";
 import ProductList from "../components/ProductList";
-import { useEffect, useState } from "react";
 
 function Home() {
-  const [products, setProducts] = useState([]);
+  const { products, loading, error } = useProducts();
 
-  useEffect(() => {
-    fetch("https://dummyjson.com/products")
-      .then((res) => res.json())
-      .then((data) => setProducts(data.products));
-  }, []);
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>{error}</p>;
 
   return (
     <div>
       <h2 className="p-4 text-xl font-bold">Products</h2>
-      <ProductList products={products} /> {/* ✅ IMPORTANT */}
+      <ProductList products={products} />
     </div>
   );
 }

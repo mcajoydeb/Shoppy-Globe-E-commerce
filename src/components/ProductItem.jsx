@@ -13,6 +13,8 @@ function ProductItem({ product }) {
         className="h-40 w-full object-cover rounded"
       />
 
+      
+
       <h3 className="mt-2 font-semibold">
         <Link to={`/product/${product.id}`} className="hover:underline">
           {product.title}

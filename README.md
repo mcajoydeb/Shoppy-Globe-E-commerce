@@ -1,18 +1,18 @@
-# 🛍️ ShoppyGlobe E-commerce
+# ShoppyGlobe E-commerce
 
 A modern e-commerce web application built using React, Redux Toolkit, and Tailwind CSS. This project demonstrates product listing, cart management, checkout flow, and performance optimization techniques.
 
 ---
 
-## 🔗 Live Repository
+## Live Repository
 
 👉 https://github.com/mcajoydeb/Shoppy-Globe-E-commerce
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🧭 Routing
+### Routing
 
 * Implemented using `createBrowserRouter`
 * Pages:
@@ -25,7 +25,7 @@ A modern e-commerce web application built using React, Redux Toolkit, and Tailwi
 
 ---
 
-### 🛒 Cart Functionality
+### Cart Functionality
 
 * Add to Cart
 * Remove from Cart
@@ -35,14 +35,14 @@ A modern e-commerce web application built using React, Redux Toolkit, and Tailwi
 
 ---
 
-### 🔍 Search
+### Search
 
 * Real-time product filtering
 * Managed using Redux state
 
 ---
 
-### 📦 Product Listing
+### Product Listing
 
 * Responsive grid layout
 * Card-based UI using Tailwind CSS
@@ -50,7 +50,7 @@ A modern e-commerce web application built using React, Redux Toolkit, and Tailwi
 
 ---
 
-### 📄 Product Detail Page
+### Product Detail Page
 
 * WooCommerce-style layout
 * Left: Product Image
@@ -59,7 +59,7 @@ A modern e-commerce web application built using React, Redux Toolkit, and Tailwi
 
 ---
 
-### 💳 Checkout Page
+### Checkout Page
 
 * WooCommerce-style checkout layout
 * Billing form with validation
@@ -69,14 +69,14 @@ A modern e-commerce web application built using React, Redux Toolkit, and Tailwi
 
 ---
 
-### ⚡ Performance Optimization
+### Performance Optimization
 
 * Lazy loading using `React.lazy` and `Suspense`
 * Lazy loading images using `loading="lazy"`
 
 ---
 
-### 🎨 UI/UX
+### UI/UX
 
 * Built with Tailwind CSS
 * Responsive design
@@ -86,7 +86,7 @@ A modern e-commerce web application built using React, Redux Toolkit, and Tailwi
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * React
 * Redux Toolkit
@@ -96,7 +96,7 @@ A modern e-commerce web application built using React, Redux Toolkit, and Tailwi
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
@@ -121,7 +121,7 @@ src/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ```bash
 # Clone the repository
@@ -139,7 +139,7 @@ npm run dev
 
 ---
 
-## 🧪 Key Functionalities Implemented
+##  Key Functionalities Implemented
 
 * Dynamic routing with parameters
 * State management using Redux Toolkit
@@ -150,7 +150,7 @@ npm run dev
 ---
 
 
-## 👨‍💻 Author
+## Author
 
 **Joydeb Choudhury (mcajoydeb)**
 
